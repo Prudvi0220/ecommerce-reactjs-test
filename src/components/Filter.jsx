@@ -14,10 +14,17 @@ function Filter() {
         onChange={(e) => setCategory(e.target.value)}
       >
         <option value="">All Categories</option>
-        <option value="mens-shirts">Men</option>
-        <option value="womens-dresses">Women</option>
-        <option value="mens-shoes">Shoes</option>
-        <option value="womens-shoes">Women Shoes</option>
+        <option value="beauty">Beauty</option>
+        <option value="fragrances">Fragrances</option>
+        <option value="furniture">Furniture</option>
+        <option value="groceries">Groceries</option>
+        <option value="home-decoration">Home Decoration</option>
+        <option value="kitchen-accessories">Kitchen Accessories</option>
+        <option value="laptops">Laptops</option>
+        <option value="mens-shirts">Men's Shirts</option>
+        <option value="mens-shoes">Men's Shoes</option>
+        <option value="mens-watches">Men's Watches</option>
+        <option value="mobile-accessories">Mobile Accessories</option>
       </select>
 
       {/* Size Filter */}
