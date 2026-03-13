@@ -44,7 +44,7 @@ function Home() {
 
   return (
     <div className="container">
-      <PageTitle>Explore Clothing Collection</PageTitle>
+      <PageTitle>ReactJS Technical Test – Mini E-Commerce Application - by Prudviraj Marigidde</PageTitle>
       <SearchBar />
       <Filter />
       <span className="product-count">{filteredProducts.length} product(s) found</span>
